@@ -78,7 +78,7 @@ public class BillPaymentCallingDao {
                 String trnID = JsonDecoder.getJsonValue(resJson, "trnID");
                 String outCode = JsonDecoder.getJsonValue(resJson, "outCode");
                 
-                res.setOutCode(outCode);
+                res.setOutCode(outCode);   
                 res.setBillPaymentTrnID(trnID);
                 res.setOutMessage(outMessage); 
                 
